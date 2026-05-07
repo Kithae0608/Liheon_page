@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>I Love Liheon</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: 'Malgun Gothic', sans-serif;
+            text-align: center;
+            padding-top: 100px;
+        }
+        .box {
+            background-color: white;
+            width: 600px;
+            margin: 0 auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #333333;
+        }
+        
+        /* 🌟 새로 추가된 사진 디자인 설정입니다 🌟 */
+        img {
+            max-width: 100%; /* 사진의 최대 넓이를 박스 크기(100%)에 맞춥니다. 박스보다 크면 알아서 줄어듭니다! */
+            height: auto; /* 세로 길이는 가로 비율에 맞춰서 자동으로 조절됩니다. */
+            border-radius: 10px; /* 사진의 모서리도 둥글게 깎아줍니다. */
+            margin-top: 15px; /* 사진 위쪽으로 약간의 틈을 줍니다. */
+            margin-bottom: 15px; /* 사진 아래쪽으로 약간의 틈을 줍니다. */
+        }
+
+        p {
+            color: #666666;
+            line-height: 1.6;
+        }
+        button {
+            background-color: #008CBA;
+            color: yellow;
+            border: none;
+            padding: 10px 20px;
+            font-size: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #005f7a;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <h1> 아니 대마왕 김리헌👋</h1>
+        
+        <img src="photo.jpg" alt="내가 넣은 사진">
+
+        <p>나는 귀요미!<br>세상에서 제일 귀여운 베비지!</p>
+        <p>엄마를 제일 좋아하지!</p>
+        
+        <button onclick="alert('사실 아빠도 좋아해! 🥳')">Click!!</button>
+    </div>
+
+</body>
+</html>
