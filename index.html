@@ -22,13 +22,12 @@
             color: #333333;
         }
         
-        /* 🌟 새로 추가된 사진 디자인 설정입니다 🌟 */
         img, video {
-            max-width: 100%; /* 사진의 최대 넓이를 박스 크기(100%)에 맞춥니다. 박스보다 크면 알아서 줄어듭니다! */
-            height: auto; /* 세로 길이는 가로 비율에 맞춰서 자동으로 조절됩니다. */
-            border-radius: 10px; /* 사진의 모서리도 둥글게 깎아줍니다. */
-            margin-top: 15px; /* 사진 위쪽으로 약간의 틈을 줍니다. */
-            margin-bottom: 15px; /* 사진 아래쪽으로 약간의 틈을 줍니다. */
+            max-width: 100%; 
+            height: auto; 
+            border-radius: 10px; 
+            margin-top: 15px; 
+            margin-bottom: 15px; 
         }
 
         p {
@@ -55,7 +54,8 @@
     <div class="box">
         <h1> 아니아니 대마왕 김리헌👋</h1>
         
-        <video src="Liheon.mp4" controls></video>
+        <!-- 🌟 수정된 부분: autoplay(자동재생), muted(무음시작), playsinline(아이폰전체화면방지) 추가! 🌟 -->
+        <video src="Liheon.mp4" controls autoplay muted playsinline></video>
 
         <p>나는 귀요미!<br>세상에서 제일 귀여운 베비지!</p>
         <p>엄마를 제일 좋아하지!</p>
